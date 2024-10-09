@@ -35,4 +35,4 @@ T(n) = T(n/13) + 5
      = T(n/13<sup>i</sup>) + 5i for i = log(n)
 
      = T(1) + 5log(n)
-     = 1 + 5log(n) ∈ $Theta$(log(n))
+     = 1 + 5log(n) ∈ Θ(log(n))
