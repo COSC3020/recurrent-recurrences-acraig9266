@@ -38,10 +38,10 @@ T(n)     = T(n/169) + 10
 T(n)     = T(n/2197) + 15
 
 
-T(n)     = T(n/13^i) + 5i for i = log(n)
+T(n)     = T(n/13<sup>i</sup>) + 5i     for i = log(n)
 
 
-T(n)     = T(1) + 5log(n)
+T(n)     = T(1) + 5log(n) = 1 + 5log(n)
 
 
 1 + 5log(n) ∈ Θ(log(n))
